@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Today</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        .poppins-regular {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+
+</head>
+
+<body class=" mx-auto  bg-gray-200 p-6 poppins-regular">
+    <!-- Navbar -->
+    <div class="navbar bg-white shadow-lg rounded-lg p-4 mb-6">
+        <div class="flex-1">
+            <div class="flex gap-2">
+                <img class="w-8" src="assets/logo.png" alt="">
+                <a class="text-xl font-bold text-gray-500">Dev<span class="text-black font-bold">Board</span></a>
+            </div>
+        </div>
+        <div>
+            <a href="/index.html" id="btn-navbar" class="btn btn-sm btn-primary">Back to Desk</a>
+        </div>
+    </div>
+    <section>
+        <h2 class="font-bold text-3xl flex flex-none items-center justify-center"> Blogs</h2>
+    </section>
+    <section class="p-6 rounded-md ">
+        <div class="bg-white p-2 rounded-md mb-4">
+            <h2 class="font-bold mb-2">Question-1: What are the different ways to select an element in the DOM?</h2>
+            <p class="mb-2">
+                ..........................................................................................................................................................................................................................................................................................................................................................................................................................
+            </p>
+            <p> DOM means Document Object Model. In JavaScript, the different ways to select an elements in the DOM
+                using various methods:
+                <li>by class name</li>
+                <li>by id name</li>
+                <li>by tag name </li>
+            </p>
+        </div>
+        <div class="bg-white p-2 rounded-md mb-4">
+            <h2 class="font-bold mb-2">Question-2: What is the difference between innerHTML, innerText, and textContent
+                ?</h2>
+            <p class="mb-2">
+                ..........................................................................................................................................................................................................................................................................................................................................................................................................................
+            </p>
+            <p>The difference between innerHTML , innerText and textContent is : <br>
+                In JavaScript, innerHTML used when you went to got any text from the html file. <br>
+                In JavaScript, innerText used when you went yo got a value from html file . <br>
+                In JavaScript, textContentused when you went hide text but It give not pass the html file.
+            </p>
+        </div>
+        <div class="bg-white p-2 rounded-md mb-4">
+            <h2 class="font-bold mb-2">Question-3: What is event delegation in the DOM?</h2>
+            <p class="mb-2">
+                ..........................................................................................................................................................................................................................................................................................................................................................................................................................
+            </p>
+            <p>
+                Event delegation is a technique in JavaScript where instead of adding event listeners to multiple child
+                elements, you add a single event listener to a parent element and use event bubbling to handle events
+                efficiently.
+            </p>
+        </div>
+        <div class="bg-white p-2 rounded-md mb-4">
+            <h2 class="font-bold mb-2">Question-4: What is event bubbling in the DOM?</h2>
+            <p class="mb-2">
+                ..........................................................................................................................................................................................................................................................................................................................................................................................................................
+            </p>
+
+            <p>Event bubbling is a mechanism in the DOM where an event starts from the target element and propagates up
+                through its parent elements.</p>
+        </div>
+        <div class="bg-white p-2 rounded-md mb-4">
+            <h2 class="font-bold mb-2">Question-5: How do you create, add, and remove elements using JavaScript?</h2>
+            <p class="mb-2">
+                ..........................................................................................................................................................................................................................................................................................................................................................................................................................
+            </p>
+            <p> Creat element: <br>
+                document.createElement("p") <br>
+                Add element: <br>
+                document.body.appendChild(P) <br>
+                Remove element: <br>
+                document.getElementById("ID")
+            </p>
+        </div>
+    </section>
+    <script src="js/style.js"></script>
+</body>
+
+</html>
